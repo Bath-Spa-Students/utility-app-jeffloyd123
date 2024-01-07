@@ -33,6 +33,11 @@ items = {
     },
 }
 
+print("\nWelcome to vending machine !!!") # Welcome message
+
+import time
+time.sleep(2) #Function to add transitions between text.
+
 #print list of the items
 def print_menu(item):
     for listed, listed_items in item.items():
